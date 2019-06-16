@@ -9,7 +9,7 @@ public class DaoTest {
 
     @Test
     public void test1(){
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext_dao.xml");
 
         ItemsDao itemsDao = context.getBean(ItemsDao.class);
         Items items = itemsDao.findById(1);

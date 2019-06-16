@@ -21,4 +21,12 @@ public class test1 {
 
         System.out.println("test"+i);
     }
+
+    public void test3(){
+
+        int  i=0;
+        i+=22;
+
+        System.out.println("test"+i);
+    }
 }

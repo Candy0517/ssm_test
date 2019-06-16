@@ -7,6 +7,18 @@ public class test1 {
     }
 
     public void test1(){
-        System.out.println("test");
+
+        int  i=0;
+        i+=11;
+
+        System.out.println("test"+i);
+    }
+
+    public void test2(){
+
+        int  i=0;
+        i+=11;
+
+        System.out.println("test"+i);
     }
 }

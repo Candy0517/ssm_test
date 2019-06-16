@@ -5,4 +5,8 @@ public class test1 {
 
         System.out.println("git");
     }
+
+    public void test1(){
+        System.out.println("test");
+    }
 }

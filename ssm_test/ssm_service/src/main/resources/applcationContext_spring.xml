@@ -10,7 +10,6 @@
     <context:component-scan base-package="cn.itcast.service"/>
 
 
-
     <import resource="classpath:applicationContext_dao.xml"/>
 
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">

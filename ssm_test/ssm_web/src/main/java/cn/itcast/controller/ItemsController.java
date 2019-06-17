@@ -9,7 +9,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/itmes")
+@RequestMapping("/items")
 public class ItemsController {
 
 
